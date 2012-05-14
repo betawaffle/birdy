@@ -1,0 +1,9 @@
+*.beam
+.eunit
+deps/*
+apps/birdy/ebin
+*~
+dev/*
+doc/*
+rel/
+
