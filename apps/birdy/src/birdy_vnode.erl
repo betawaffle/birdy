@@ -50,11 +50,6 @@ add_user(Id) ->
 remove_user(Id) ->
     command({remove_user, Id}, {user, Id}, 3).
 
-list_users() ->
-    PrefList = riak_core_apl:active_owners(birdy),
-    
-
-
 %% --- Command Helpers ---
 
 command(Command, Name, N) ->
